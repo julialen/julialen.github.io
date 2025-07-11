@@ -20,7 +20,20 @@
     font-weight: 900;
 }
 
-.navbar-nav .active { font-weight: 900; text-decoration: underline;}
+.navbar-nav .active { 
+    font-weight: 900; 
+    text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover:not(.navbar a):not(.btn) {
+  /* Add a dotted border-bottom on hover */
+  border-bottom: 2px dotted gray;
+  color: #415470;
+}
 
 @viewport {
     width: device-width ;
