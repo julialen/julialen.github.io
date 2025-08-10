@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-a:hover:not(.navbar a):not(.btn) {
+a:hover:not(.navbar a):not(.btn):not(#quarto-back-to-top) {
   /* Add a dotted border-bottom on hover */
   border-bottom: 2px dotted gray;
   color: #415470;
