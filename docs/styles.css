@@ -38,5 +38,6 @@ a:hover:not(.navbar a):not(.btn):not(#quarto-back-to-top) {
 @viewport {
     width: device-width ;
     zoom: 1.0 ;
-  }
+}
+
 
