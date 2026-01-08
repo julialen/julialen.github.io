@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>COMP 790-188: Topics in Secure Communication</title>
+    <link rel="icon" type="image/x-icon" href="North_Carolina_Tar_Heels_logo.png">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+  <body>
+    <!-- Navbar -->
+    <div class="top-bar container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark mb-4">
+        <a class="navbar-brand" href="#">
+          COMP 790-188 Spring 2026
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link current" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link not-current" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link not-current" href="https://edtech.unc.edu/service/canvas/">Canvas</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Title -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Topics in Secure Communication</h1>
+          <h4>COMP 790-188 - Spring 2026</h4>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-sm-12">
+          <p>
+            <b>Instructor:</b> <a href="https://julialen.github.io/">Julia Len</a>
+            <br>
+            <b>Contact:</b> jlen@cs.unc.edu
+            <br>
+            <b>Lectures:</b> Tues/Thurs 3:30-4:45PM, SN115
+            <br>
+            <b>Office Hours:</b> TBD
+            <br>
+            <a href="syllabus.pdf">Syllabus</a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <span style="font-weight: 600; font-size:20px;">Course Description</span>
+            <p>
+              Digital communication has become a prominent part of our lives, from email to video calling to messaging applications. The ubiquity of this technology results in the exchange of sensitive data. How do we ensure that such data is transmitted securely? This graduate level seminar course will explore cryptographic research aimed at answering this question. Building on the foundations in the undergraduate cryptography course, this course will aim to understand the cryptographic techniques and protocols that may be used to secure communication systems. Students will read, discuss, and review foundational and recent papers in this area and learn how to present conference-style talks on the papers. Students will also complete a course research project on a topic of their choosing related to secure communication.
+            </p>
+            <p>
+              In this class, we will explore a variety of papers focusing on three topics: key transparency, metadata-hiding communication, and content moderation. The precise set of topics rotates based on instructor preference, recent research developments, and current events.
+            </p> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <span style="font-weight: 600; font-size:20px;">Prerequisites</span>
+            <p>There are no prerequisites for this course, though it is strongly recommended for students to take COMP 537 (or equivalent).</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <span style="font-weight: 600; font-size:20px;">Resources</span>
+            <p>The following resources may be helpful as references throughout the course.</p>
+            <p class="no-space-p">Cryptography:</p>
+            <ul class="no-space-list">
+              <li><a href="https://toc.cryptobook.us/">A Graduate Course in Applied Cryptography</a>, by Dan Boneh and Victor Shoup</li>
+              <li><a href="https://cseweb.ucsd.edu/~mihir/papers/gb.pdf">Lecture Notes in Cryptography</a>, by Shafi Goldwasser and Mihir Bellare</li>
+            </ul>
+
+            <p class="no-space-p">Reading papers:</p>
+            <ul class="no-space-list">
+              <li><a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">How to Read a Paper</a>, by S. Keshav</li>
+              <li><a href="https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf">How to read a research paper</a>, by Michael Mitzenmacher</li>
+            </ul>
+
+            <p class="no-space-p">Writing reviews:</p>
+            <ul class="no-space-list">
+              <li><a href="https://cs.uwaterloo.ca/~smann/Research/review-conference.txt">Writing reviews for systems conferences</a>, by Stephen Mann</li>
+              <li><a href="https://www.springer.com/gp/book/9783030546026">Reviewing a CS conference paper</a>, by William Stallings</li>
+            </ul>
+
+            <p class="no-space-p">Giving talks:</p>
+            <ul class="no-space-list">
+              <li><a href="https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/">How to give a great research talk</a>, by Simon Peyton Jones, John Launchbury, and John Hughes</li>
+            </ul> 
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
